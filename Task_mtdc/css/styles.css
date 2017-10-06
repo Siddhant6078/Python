@@ -1,0 +1,92 @@
+.bg{
+	background-image:url("../images/stripsBg3.jpg");
+	background-repeat: repeat;
+	padding-top: 0px;
+}
+
+.main{
+	margin-left: 17px;
+	padding: 5px 20px 5px 20px;
+}
+
+.reg{
+	font-size: 28px;
+	color: #666;
+	padding: 8px 13px 8px 0;
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+.outer{
+	background: #ffffff;
+	padding: 10px;
+	border: 1px solid #bbb;
+	position: relative;
+	overflow: hidden;
+	border-radius: 7px;
+	margin-left: -15px;
+	margin-top: -9px;
+	width: 110.3%;
+}
+
+.inner{
+	border: 1px solid #e1e1e1;
+	border-top: 3px solid #d7d4d4;
+	background: #f7f7f7;
+	margin: 20px;
+	clear: both;
+	padding: 10px 0 10px 15px;
+}
+
+.form1{
+	margin-left:-88px;
+	padding-top:9px;
+	margin-top:0px;
+}
+
+.account{
+	margin-right:-50px;
+	border-radius: 5px;
+	padding-top:4px;
+}
+
+.personal{
+	font-size: 26px;
+	text-align:left;
+}
+
+.cool{
+	text-align: left;
+	margin-left:100px;
+	margin-top: 5px;
+}
+
+.colon{
+	margin-top:5px;
+	margin-left: -100px;
+}
+
+.collon{
+	margin-top:5px;
+	margin-left: -80px;
+}
+
+.details{
+	text-align: left;
+	margin-left:100px;
+	margin-top: 5px;
+}
+
+.cncl{
+	background-color: #737270;
+	color: #fff;
+}
+
+.gender{
+	text-align: left;
+	margin-left:50px;
+	margin-top: 5px;
+}
+li{
+	color: red;
+}

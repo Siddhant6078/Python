@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+  // Validate Registration form
+  $("#form1").validate({
+    rules: {
+      firstname: "required",
+      lastname: "required"
+    },
+    messages: {
+      firstname : "Please enter your firstname"
+    }
+  })
+});
+  </script>
+<body>
+
+<form action="#" id="form1">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
