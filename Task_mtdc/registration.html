@@ -12,67 +12,15 @@
   <script src="./js/jquery.min.js"></script>
   <script src="./js/jquery.validate.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- <script type="text/javascript" src="./js/new_validate.js"></script> -->
+  <script type="text/javascript" src="./js/new_validate.js"></script>
   <script type="text/javascript">
-            $(document).ready(function () {
-                $('#datetimepicker1').datetimepicker({
-                  maxDate:0
-                });
-            });
+            // $(document).ready(function () {
+            //     $('#datetimepicker1').datetimepicker({
+            //       maxDate:0
+            //     });
+            // });
 
-$(document).ready(function () {
-  $("#register").click(function(){
-    var test = [1,2,3,4,5];
-    // for (var i = test.length - 1; i >= 0; i--) {
-    //   console.log(test[i]);
-    // }
-    $( "li" ).each(function( test ) {
-      console.log( test + ": " + $( this ).text() );
-    });
 
-    $("ol").html("");
-    if($('#fname').val()==='' || $('fname').val()===null){
-     
-      $("ol").append("<li>Enter Firstname</li>");
-    }
-    if($('#lname').val()==='' || $('lname').val()===null){
-      
-      $("ol").append("<li>Enter Lastname</li>");
-    }
-    if($('#dob').val()==='' || $('dob').val()===null){
-     
-      $("ol").append("<li>Enter Date of Birth</li>");
-    }
-    if($('#address').val()==='' || $('address').val()===null){
-      
-      $("ol").append("<li>Enter Address</li>");
-    }
-    if($('#state').val()==='' || $('state').val()===null){
-      
-      $("ol").append("<li>Enter State</li>");
-    }
-    if($('#email').val()==='' || $('email').val()===null){
-      
-      $("ol").append("<li>Enter Email</li>");
-    }
-    if($('#mobile').val()==='' || $('mobile').val()===null){
-      
-      $("ol").append("<li>Enter Mobile</li>");
-    }
-    if($('#uname').val()==='' || $('uname').val()===null){
-      
-      $("ol").append("<li>Enter Username</li>");
-    }
-    if($('#pwd').val()==='' || $('pwd').val()===null){
-      
-      $("ol").append("<li>Enter Password</li>");
-    }
-    if($('#cpwd').val()==='' || $('cpwd').val()===null){
-      
-      $("ol").append("<li>Enter Confirm Password</li>");
-    }
-  });
-});
   </script>
 </head>
 <body>

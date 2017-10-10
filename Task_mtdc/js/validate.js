@@ -8,7 +8,8 @@ $(document).ready(function () {
       state: "required",
       mobile: {
       	required: true,
-      }
+      	number:
+      },
       uname: {
         required: true,
         minlength: 5
