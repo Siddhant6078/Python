@@ -1,0 +1,77 @@
+.logo{
+	float: left;
+display: inline;
+}
+.navigation {
+    float: left;
+    width: 100%;
+    background-image: url("../images/menuB.jpg");
+    background-repeat: repeat-x;
+    height: 41px;
+    padding: 50px 0 0 0;
+    margin: 10px 10px 0 0;
+}
+
+.content h1.pageTitle {
+    font-size: 28px;
+    color: #666;
+    padding: 8px 13px 8px 0;
+}
+
+.perInfo{
+	background: url('../images/accountIcon.jpg') 0 0 no-repeat;
+}
+
+.pageTitle {
+    font-size: 28px;
+    color: #666;
+    padding: 8px 13px 8px 0;
+}
+
+h2{
+	font-size: 26px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    padding: 6px 0 0 50px;
+    height: 38px;
+    color: #39a4ee;
+    font-weight: normal;
+    color: #444444;
+}
+table{
+	padding: 15px 20px 15px 20px;
+	border: 2px solid grey;
+	width: 100%;
+}
+
+.content {
+    clear: both;
+    padding: 15px 20px 15px 20px;
+    background: linear-gradient(to bottom right, white,grey);
+}
+
+.logInfo {
+    background: url('../images/loginInfoIcon.jpg') 0 0 no-repeat;
+}
+
+select{
+	min-width:173px;
+}
+
+* {
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: 0;

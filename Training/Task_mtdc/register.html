@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ICO">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="https://resources/demos/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script>
+	  $( function() {
+	    $( "#datepicker" ).datepicker();
+	  } );
+  </script>
+</head>
+<body>
+	<div>
+		<a href="./Login.html" class="logo">
+			<img src="./images/mtdc_logo.jpg">
+		</a>
+	</div>
+	<div class="navigation">
+	</div>
+	<div class="content">
+	<form action="#" method="post" id="form1">
+		<h1 class="pageTitle">Registration</h1>
+		<table>
+			<tr>
+				<td>
+					<h2 class="perInfo">	Personal Information</h2>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Salutation
+				</td>
+				<td>:</td>
+				<td>
+					<select>
+						<option>Mr</option>
+						<option>Mrs</option>
+						<option>Dr</option>
+						<option>Ms</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					First Name
+				</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="fname" placeholder="FirstName">
+				</td>
+				<td>
+					Last Name
+				</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="lname" placeholder="LastName">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Date of Birth
+				</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="date" placeholder="DOB" id="datepicker">
+				</td>
+				<td>
+					Gender
+				</td>
+				<td>:</td>
+				<td>
+					<select>
+						<option>Male</option>
+						<option>Female	</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Address
+				</td>
+				<td>:</td>
+				<td>
+					<textarea rows="3" cols="20" style="width: 173px;" placeholder="Address"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Country
+				</td>
+				<td>:</td>
+				<td>
+					<select>
+						<option>India</option>
+						<option>Australia</option>
+						<option>Egypt</option>
+						<option>Singapore</option>
+						<option>New Zealand</option>
+					</select>
+				</td>
+				<td>
+					State
+				</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="state" placeholder="State">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					City
+				</td>
+				<td>:</td>
+				<td>
+					<select>
+						<option>Pune</option>
+						<option>Sydney</option>
+						<option>Cairo</option>
+						<option>Pulau Ujong</option>
+						<option>Auckland</option>
+					</select>
+				</td>
+				<td>
+					State
+				</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="pincode" placeholder="Pincode">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Email
+				</td>
+				<td>:</td>
+				<td>
+					<input type="email" name="email" placeholder="Email">
+				</td>
+				<td>
+					Mobile No.
+				</td>
+				<td>:</td>
+				<td>
+					<input type="number" name="mobile" placeholder="Mobile Number" max="10">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Fax No.
+				</td>
+				<td>:</td>
+				<td>
+					<input type="number" name="fax" placeholder="Fax Number">
+				</td>
+				<td>
+					Language Preffered
+				</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="language" placeholder="Language">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h2 class="logInfo">Login Information</h2>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					User Name
+				</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="uname" placeholder="UserName">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Password
+				</td>
+				<td>:</td>
+				<td>
+					<input type="password" name="pwd" placeholder="Password">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Confirm Password
+				</td>
+				<td>:</td>
+				<td>
+					<input type="password" name="cpwd" placeholder="Confirm Password">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="submit" value="Submit">
+				</td>
+				<td>
+					<input type="reset" name="cancel" value="Cancel">
+				</td>
+			</tr>
+		</table>
+	</form>
+	</div>
+</body>
+</html>

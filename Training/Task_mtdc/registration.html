@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ICO">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/jquery.validate.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/new_validate.js"></script>
+  <script type="text/javascript">
+            // $(document).ready(function () {
+            //     $('#datetimepicker1').datetimepicker({
+            //       maxDate:0
+            //     });
+            // });
+
+
+  </script>
+</head>
+<body>
+<div class="row" style="margin-bottom: -10px;">
+  <div>
+      <a href="./Login.html" class="logo">
+        <img src="./images/mtdc_logo.jpg" style="margin-left: 32px;">
+      </a>
+  </div>
+  <div class="navigation"></div>
+</div>
+<div class="bg">
+<div class="container main">
+  <h1 class="row reg">Registration</h1>
+  <div class="outer">
+    <ol class="err" id="error">
+    </ol>
+  <div class="inner">
+  <form class="form-horizontal form1" id="form1" action="#" method="post">
+    <div class="form-group" style="margin-left: 75px;">
+      <div class="col-sm-1 account">
+        <img src="./images/accountIcon.jpg">
+      </div>
+      <div class="control-label col-sm-4">
+        <p class="personal">Personal Information</p>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label class="cool col-sm-2" for="salutation">Salutation</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;">
+        <select class="form-control" id="sel1">
+          <option>Mr</option>
+          <option>Mrs</option>
+          <option>Dr</option>
+          <option>Ms</option>
+        </select>
+      </div>
+    </div> 
+    <div class="form-group">
+      <label class="cool col-sm-2" for="fname">First Name</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;">          
+        <input type="text" class="form-control" id="fname" placeholder="Enter FirstName" name="fname" required="">
+      </div>
+      <label class="cool col-sm-2" for="lname">Last Name</label>
+      <span class="col-sm-1 collon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;">          
+        <input type="text" class="form-control" id="lname" placeholder="Enter LastName" name="lname" required="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="cool col-sm-2" for="dob">Date of Birth</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-2" style="margin-left:-87px;">           
+        <input type="date" class="form-control" id="dob" placeholder="Enter Date of Birth" name="dob" style="width:250px;" required="">
+      </div>
+      <span class="glyphicon glyphicon-calendar col-sm-1" id='datetimepicker1' aria-hidden="true" style="margin-left: 50px;margin-top: 8px;"></span>
+      <!-- <a href="#" id="calender" class="col-sm-1">
+        <img src="./images/calender.png" style="width: 30px;height: 30px;margin-left: 45px;margin-top: 1px;">
+      </a> -->
+      <label class="gender col-sm-2" for="gender">Gender</label>
+      <span class="col-sm-1 collon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;">           
+        <select class="form-control" id="sel2" required="">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="cool col-sm-2" for="address">Address</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <textarea class="form-control" rows="3" name="address" id="address" placeholder="Enter Address" required=""></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="cool col-sm-2" for="country">Country</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <select class="form-control" id="country" required="">
+          <option>India</option>
+          <option>Australia</option>
+          <option>Egypt</option>
+          <option>Singapore</option>
+          <option>New Zealand</option>
+        </select>
+      </div>
+      <label class="cool col-sm-2" for="state">State</label>
+      <span class="col-sm-1 collon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <input type="text" class="form-control" id="state" placeholder="Enter State" name="state" required="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="cool col-sm-2" for="city">City</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <select class="form-control" id="city" required="">
+          <option>Pune</option>
+          <option>Sydney</option>
+          <option>Cairo</option>
+          <option>Pulau Ujong</option>
+          <option>Auckland</option>
+        </select>
+      </div>
+      <label class="cool col-sm-2" for="pincode">Pincode</label>
+      <span class="col-sm-1 collon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <input type="text" class="form-control" id="pincode" placeholder="Enter Pincode" name="pincode">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="cool col-sm-2" for="email">Email</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required="">
+      </div>
+      <label class="cool col-sm-2" for="mobile">Mobile No</label>
+      <span class="col-sm-1 collon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile No" name="mobile" required="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="cool col-sm-2" for="fax">Fax No</label>
+      <span class="col-sm-1 colon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <input type="text" class="form-control" id="fax" placeholder="Enter Fax No" name="fax">
+      </div>
+      <label class="cool col-sm-2" for="language">Language Preffered</label>
+      <span class="col-sm-1 collon">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <input type="text" class="form-control" id="language" placeholder="Enter Language" name="language">
+      </div>
+    </div>
+    <div class="form-group" style="margin-left: 75px;">
+      <div class="col-sm-1" style="margin-right:-50px;border-radius: 5px;padding-top:4px;">
+        <img src="./images/loginInfoIcon.jpg">
+      </div>
+      <div class="control-label col-sm-4">
+        <p style="font-size: 26px;text-align:left;">Login Information</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 details" for="uname">User Name</label>
+      <span class="col-sm-1" style="margin-top:5px;">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;"> 
+        <input type="email" class="form-control" id="uname" placeholder="Enter UserName" name="uname">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="details col-sm-2" for="pwd">Password</label>
+      <span class="col-sm-1" style="margin-top:5px;">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;">           
+        <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="details col-sm-2" for="cpwd">Confirm Password</label>
+      <span class="col-sm-1" style="margin-top:5px;">:</span>
+      <div class="col-sm-3" style="margin-left:-87px;">          
+        <input type="password" class="form-control" id="cpwd" placeholder="Enter Confirm Password" name="cpwd">
+      </div>
+    </div>
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-2">
+        <button type="submit" class="btn btn-default btn-primary" id="register">Register</button>
+      
+        <button type="reset" class="btn btn-default cncl" style="">Cancel</button>
+      </div>
+    </div>
+  </form>
+  </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
