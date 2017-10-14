@@ -1,0 +1,2 @@
+1. $.each()---[Jquery Function]:
+		link: https://www.sitepoint.com/jquery-each-function-examples/

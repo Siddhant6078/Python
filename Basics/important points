@@ -1,3 +1,24 @@
 1.  XOR (^) operator is very useful for flipping bits.
 2. You can also use masks to turn a bit in a number on using |
-3. A bit mask can help you turn specific bits on, turn others off, or just collect data from an integer about which bits are on or off
+3. A bit mask can help you turn specific bits on, turn others off, or just collect data from an integer about which bits are on or off.
+
+
+---------------Python-------------
+
+1.The Difference between extend and append
+	>>> li = ['a', 'b', 'c']
+	>>> li.extend(['d', 'e', 'f']) 1
+	>>> li
+	['a', 'b', 'c', 'd', 'e', 'f']
+	>>> len(li)                    2
+	6
+	>>> li[-1]
+	'f'
+	>>> li = ['a', 'b', 'c']
+	>>> li.append(['d', 'e', 'f']) 3
+	>>> li
+	['a', 'b', 'c', ['d', 'e', 'f']]
+	>>> len(li)                    4
+	4
+	>>> li[-1]
+	['d', 'e', 'f']
